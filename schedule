@@ -1,0 +1,31 @@
+15.9.2020 -read papers for evaluation, finalize your method of evalouation(what is the test data?(weeks,days?..), how you are going to report?)
+          -write about your evaluation method in the thesis
+          -what is your baselines?LA , HM , Median, ARMA? or all of that?also what kind of data they are using for training?
+          -ask for data extension
+22.9.2020 - Dig into the weather data features, which ones you want to use?explore correlations and find set of features you want to use
+          - Do you need to interpolate data because of missing values?then how?
+          -Do you want to use other data like holidays?
+
+
+29.9.2020 - be done with features and write what coorelations you have found and what did you decide to use
+          - WHY time series and explain model also in more details
+          - read about data prepration in litreture and see what you can add in the code
+          - write about all the data prepration you have done till now
+          
+6.10.2020 - Start working with neighbour station data
+          - try the first VAR model
+          - try different set of neighbor selection(500 meters? less?more?)
+          
+13.10.2020 - which model and which set of features you want to use for the different set ups?(10 min,20 min and 60) NO IDEA NOW HOW TO CHOOSE
+           - when you found out write about it
+20.10.2020 -write about data preproccessing
+27.10.2020 - There are missing values for stations observations, how to control or get rid of them
+           - The fucntion for calculationg the error should be corrected considering our time offset
+           - The durbin watson test should be added as a functio.
+3.11.2020 - write about the VAR model that you created during last weeks
+          - make the SARIMA model also modular so you can run for all the stations
+          - make the LV method also modular and run
+10.11.2020 - add ex variable to the previuos models 
+           -VARX
+           -SARIMAX
+           
